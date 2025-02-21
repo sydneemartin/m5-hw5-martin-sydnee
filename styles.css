@@ -9,9 +9,9 @@ body {
 }
 
 header {
-    background-color: aquamarine;
+    background-color: olive;
     padding: 40px 0;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid orange;
 }
 
 .container{
@@ -39,14 +39,14 @@ nav a{
 }
 
 main{
-    background-color: bisque;
+    background-color: #0772;
     float: left;
     width: 70%;
     padding: 20px;
 }
 
 aside {
-    background-color: aqua;
+    background-color: lightgoldenrodyellow;
     float: right;
     width: 20%;
     padding: 20px;
@@ -73,12 +73,12 @@ aside img {
 footer {
     position: fixed;
     bottom: 0;
-    background: black;
+    background: beige;
     width: 100%;
     text-align: center;
 }
 
 footer p {
-    color: white;
+    color: brown;
     font-size: 16px;
 }

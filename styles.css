@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url('../images/ep_naturalwhite.jpeg');
+}
+
+header {
+    background-color: aquamarine;
+    padding: 40px 0;
+    border-bottom: 3px solid red;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+}
+
+p {
+    margin: 15px;
+}
+nav{
+    float: right;
+}
+
+nav a{
+    color: white ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+main{
+    background-color: bisque;
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+
+aside {
+    background-color: aqua;
+    float: right;
+    width: 20%;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+.main content {
+    margin: 40px auto;
+}
+
+.headshot {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 200;
+}
+
+aside img {
+    box-shadow: 3px 3px 6px black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+}
